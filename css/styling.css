@@ -1,0 +1,229 @@
+body{
+	font:16px/1.5 Courier New, Courier;
+	padding: 0;
+	margin: 0;
+	background-color: #fffaeb
+	
+}
+
+.helyzet{
+	width: 85%;
+	margin: auto;
+	overflow: hidden;
+	
+}
+header{
+	background: #fff49e; 
+	color: #366b00;
+	padding-top: 25px;
+	min-height: 60px;
+	
+}
+header a{
+	color: #366b00;
+	text-decoration: underline overline;
+	font-size: 20px;
+	
+}
+header a:hover{
+	color: #6ad100;
+}
+header ul{
+	text-transform: uppercase;
+	padding: 0;
+}
+header li{
+	float: left;
+	display: inline-block;
+	margin: 10px 40px 10px 10px;
+	padding-top: 5px;
+
+}
+header #Julcsi{
+	float: left;
+	color: #366b00;
+	font-size: 20px;
+	margin: 0 10px 10px 10px;
+	font-family: 'Dancing Script';
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+.cím{
+	min-height: 300px;
+	background:url('../kepek/level2_3.jpg'); 
+	text-align: center;
+	}
+.cím h1{
+	margin-top: 0;
+	font-size: 50px;
+	margin:50px;
+	margin-bottom: 10px;
+	color: #fff49e;
+
+}
+.cím p{
+	font-size:18px;
+	font-weight: normal;
+	color: #fff49e;
+
+}
+.doboz{
+	
+	color: #366b00;
+	text-align: center;
+	margin-bottom: 100px;
+	background-color: #a2c995;
+	padding-bottom: 20px;
+	
+
+}
+.doboz3 {
+	/*float:left;*/
+	display: inline-block;
+	width: 100%;
+	max-width: 320px;
+	text-align: center;
+	padding: 0 20px;
+	vertical-align: top;
+	background-color: #fff0bf ;
+  	padding: 20px;
+  	margin-top: 20px;
+  	min-height:430px;
+  	margin-right: 20px;
+  	margin-left: 20px;
+
+}
+.doboz h3{
+	font-size: 25px;
+}
+.doboz p{
+	font-size: 16px;
+}
+
+.doboz img {
+	max-width: 300px;
+
+
+}
+.doboz-nyelvek{
+	margin-top: 0px;
+	color: #366b00;
+	text-align: center;
+	background-color: #a2c995;
+	padding-bottom: 20px;
+	
+
+}
+.doboz4{
+	display: inline-block;
+	width: 100%;
+	max-width: 250px;
+	text-align: center;
+	vertical-align: top;
+	background-color: #fff0bf ;
+   	margin-top: 20px;
+  	height:400px;
+  	margin-right: 10px;
+  	margin-left: 10px;
+  	padding: 10px 20px 10px 20px;
+
+}
+.doboz4 h3{
+	font-size: 25px;
+
+}
+#lenyilo_menü{
+	left: 1.5rem;
+	display: none;
+	background-color: #fff49e;
+	border-radius: 5px;
+	text-align: center;
+	max-height: max-content;
+	max-width: max-content;
+}
+
+#lenyilo_menü.latszodik{
+	display: block;
+}
+.almenü{
+	padding-left: 1rem;
+	padding-right: 1rem; 
+	line-height: 3rem;
+	color: #366b00;
+}
+.main{
+	min-height: 250px;
+}
+
+.main ul a{
+	font-size: 20px;
+	color: #366b00;
+	text-transform: uppercase;
+	text-decoration: underline overline;
+}
+.main a:hover{
+	color: #6ad100;
+}
+}
+@media screen and (max-width:80%) {
+  .doboz3 {
+    width: 100%;
+  }
+}
+@media screen and (max-width:80%) {
+  .doboz4 {
+    width: 100%;
+  }
+}
+footer{
+	background: #fff49e;
+	color: #366b00;
+	padding-top: 25px;
+	min-height: 60px;
+
+
+}
+footer a{
+	color: #366b00;
+	text-decoration: underline overline;
+	font-size: 20px;
+	float: left;
+	padding: 0 20px 0 20px;
+	text-transform: uppercase;
+}
+
+footer a:hover{
+	color: #6ad100;
+}
+.dokcim{
+	min-height: 300px;
+	background-color: #a2c995; 
+	font-size:18px;
+	font-weight: bold;
+	color: #366b00;
+	padding-bottom: 20px;
+}
+.dokcim p{
+	float:right;
+	max-width: 700px;
+	margin-bottom: 300px;
+}
+.dokcim img{
+	float:left;
+	max-width: 500px;
+	padding-top:20px;
+}
+.dokcim h1{
+	float:right;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+.dokcim a{
+	text-decoration: underline;
+	color:#366b00;
+}
